@@ -73,7 +73,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<redis>, ["~> 2.2.1"])
+      s.add_runtime_dependency(%q<redis>, ["> 2.2.1"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
       s.add_development_dependency(%q<git>, [">= 0"])
       s.add_development_dependency(%q<rack-cache>, [">= 0"])
@@ -102,4 +102,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<ruby-debug>, [">= 0"])
   end
 end
-
