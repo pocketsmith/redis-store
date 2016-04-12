@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<i18n>, [">= 0"])
       s.add_development_dependency(%q<ruby-debug>, [">= 0"])
     else
-      s.add_dependency(%q<redis>, ["~> 2.2.1"])
+      s.add_dependency(%q<redis>, ["> 2.2.1"])
       s.add_dependency(%q<jeweler>, [">= 0"])
       s.add_dependency(%q<git>, [">= 0"])
       s.add_dependency(%q<rack-cache>, [">= 0"])
@@ -92,7 +92,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<ruby-debug>, [">= 0"])
     end
   else
-    s.add_dependency(%q<redis>, ["~> 2.2.1"])
+    s.add_dependency(%q<redis>, ["> 2.2.1"])
     s.add_dependency(%q<jeweler>, [">= 0"])
     s.add_dependency(%q<git>, [">= 0"])
     s.add_dependency(%q<rack-cache>, [">= 0"])
